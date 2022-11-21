@@ -1,0 +1,15 @@
+.DS_STORE
+node_modules
+
+build/
+remote-repo/
+coverage/
+
+logs
+*.log*
+
+.vscode
+.npm
+.eslintcache
+
+
