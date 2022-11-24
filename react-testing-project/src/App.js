@@ -11,8 +11,14 @@ const App = () => {
    return (
       <>
          <h1>{heading}</h1>
-         <button type="button" onClick={handleClick}>
+         <button type="button" name="btnChangeHeading" onClick={handleClick}>
             Update Heading
+         </button>
+         <button type="button" name="btnOk">
+            OK
+         </button>
+         <button type="button" name="btnCancel">
+            Cancel
          </button>
       </>
    );
